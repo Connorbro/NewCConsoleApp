@@ -8,7 +8,7 @@ namespace ConsoleDotNetApp
         {
             string phrase = "Im 21 years old";
 
-            Console.WriteLine(phrase[0]);
+            Console.WriteLine(phrase.Substring(8, 3));
 
             Console.ReadLine();
         }
