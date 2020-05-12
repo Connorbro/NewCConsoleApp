@@ -8,7 +8,7 @@ namespace ConsoleDotNetApp
         {
             string phrase = "Im 21 years old";
 
-            Console.WriteLine(phrase.Contains("21"));
+            Console.WriteLine(phrase[0]);
 
             Console.ReadLine();
         }
