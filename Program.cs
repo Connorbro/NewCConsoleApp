@@ -26,7 +26,20 @@ namespace ConsoleDotNetApp
 
             Console.WriteLine("Well that was fun!");
 
-            
+            string colour;
+            string pluralNoun;
+            string celebrity;
+
+            Console.Write("Enter a Colour: ");
+            colour = Console.ReadLine();
+
+            Console.Write("Enter an object: ");
+            pluralNoun = Console.ReadLine();
+
+            Console.Write("Enter a celebrity: ");
+            celebrity = Console.ReadLine();
+
+
 
 
 
