@@ -6,9 +6,7 @@ namespace ConsoleDotNetApp
     {
         static void Main(string[] args)
         {
-            string phrase = "Im 21 years old";
-
-            Console.WriteLine(phrase.Substring(8, 3));
+            Console.WriteLine(5 % 2);
 
             Console.ReadLine();
         }
