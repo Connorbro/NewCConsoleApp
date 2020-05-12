@@ -15,7 +15,11 @@ namespace ConsoleDotNetApp
             var age = Console.ReadLine();
             Console.WriteLine($"Okay so your {age}");
 
-            Console.WriteLine($"Enter any number {name}");
+            int num = Convert.ToInt32("40");
+
+            Console.WriteLine(num)
+                                
+
 
             
             
