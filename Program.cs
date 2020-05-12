@@ -6,8 +6,12 @@ namespace ConsoleDotNetApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("My name is Connor");
-            Console.WriteLine("I am 21 years old");
+            var name = "Connor";
+            var age = 21;
+
+
+            Console.WriteLine($"My name is {name}");
+            Console.WriteLine($"I am {age} years old");
             Console.WriteLine("I love C#");
 
             Console.ReadLine();
