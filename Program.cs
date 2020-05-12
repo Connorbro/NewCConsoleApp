@@ -6,7 +6,9 @@ namespace ConsoleDotNetApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(5 % 2);
+            int num = 6;
+            num++;
+            Console.WriteLine(num);
 
             Console.ReadLine();
         }
