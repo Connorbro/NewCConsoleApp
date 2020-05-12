@@ -12,7 +12,7 @@ namespace ConsoleDotNetApp
             char grade = 'A';
 
 
-            Console.WriteLine($"My name is {name}");
+            Console.WriteLine($"My name is {name.ToUpper()}");
             Console.WriteLine($"I am {age} years old");
             Console.WriteLine($"I love {CodingLanguage}");
             Console.WriteLine($"My maths grade in school was an {grade}");
