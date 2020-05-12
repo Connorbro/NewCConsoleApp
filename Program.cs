@@ -14,7 +14,8 @@ namespace ConsoleDotNetApp
             Console.Write($"Now enter your age: ");
             var age = Console.ReadLine();
             Console.WriteLine($"Okay so your {age}");
-            
+
+            Console.WriteLine($"Enter any number {name}");
 
             
             
