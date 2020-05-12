@@ -10,6 +10,8 @@ namespace ConsoleDotNetApp
             num++;
             Console.WriteLine(num);
 
+            Console.WriteLine(Math.Pow(54, 2));
+
             Console.ReadLine();
         }
     }
