@@ -7,13 +7,15 @@ namespace ConsoleDotNetApp
         static void Main(string[] args)
         {
             var name = "Connor";
-            var age = 21;
+            int age = 21;
             string CodingLanguage = "C#";
+            char grade = 'A';
 
 
             Console.WriteLine($"My name is {name}");
             Console.WriteLine($"I am {age} years old");
             Console.WriteLine($"I love {CodingLanguage}");
+            Console.WriteLine($"My maths grade in school was an {grade}");
 
             Console.ReadLine();
         }
