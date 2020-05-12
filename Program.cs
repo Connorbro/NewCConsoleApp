@@ -6,10 +6,10 @@ namespace ConsoleDotNetApp
     {
         static void Main(string[] args)
         {
-            var name = Console.ReadLine();
+            
             Console.WriteLine("Enter your name:");
-            Console.ReadLine();
-
+            var name = Console.ReadLine();
+            
             Console.WriteLine($"Hello there {name} ");
         }
     }
