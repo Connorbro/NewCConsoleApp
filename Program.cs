@@ -6,7 +6,7 @@ namespace ConsoleDotNetApp
     {
         static void Main(string[] args)
         {
-            var name = "";
+            var name = Console.ReadLine();
             Console.WriteLine("Enter your name:");
             Console.ReadLine();
 
