@@ -6,13 +6,11 @@ namespace ConsoleDotNetApp
     {
         static void Main(string[] args)
         {
-            int num = 6;
-            num++;
-            Console.WriteLine(num);
-
-            Console.WriteLine(Math.Pow(54, 2));
-
+            var name = "";
+            Console.WriteLine("Enter your name:");
             Console.ReadLine();
+
+            Console.WriteLine($"Hello there {name} ");
         }
     }
 }
