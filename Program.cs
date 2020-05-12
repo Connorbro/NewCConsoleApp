@@ -39,6 +39,10 @@ namespace ConsoleDotNetApp
             Console.Write("Enter a celebrity: ");
             celebrity = Console.ReadLine();
 
+            Console.WriteLine($"Roses are red {colour}");
+            Console.WriteLine($"{pluralNoun} are blue");
+            Console.WriteLine($"I love {celebrity} just like you!");
+
 
 
 
